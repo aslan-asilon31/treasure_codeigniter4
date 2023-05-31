@@ -1,0 +1,1003 @@
+INFO - 2023-05-22 00:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 00:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 00:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 00:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 00:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 00:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 04:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 04:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 04:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 04:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 04:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 04:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 04:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 05:07:23 --> The route for "/product" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/product')
+ 2 APPPATH\Controllers\ProductController.php(89): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->delete('3')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-22 05:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 05:12:17 --> Undefined variable $title
+in APPPATH\Views\Product\index.php on line 11.
+ 1 APPPATH\Views\Product\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\Product\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\Product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(58): view('Product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 05:13:45 --> Undefined variable $title
+in APPPATH\Views\Product\index.php on line 11.
+ 1 APPPATH\Views\Product\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\Product\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\Product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(60): view('Product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-22 05:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-22 05:23:55 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(61): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 05:23:55 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product 2\', \'img.jpg\', \'3000000\', \'xl\', \'red\', \'on-sale\', \'desc\', NULL, \'2023-05-22 05:23:55\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product 2\', \'img.jpg\', \'3000000\', \'xl\', \'red\', \'on-sale\', \'desc\', NULL, \'2023-05-22 05:23:55\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product 2\', \'img.jpg\', \'3000000\', \'xl\', \'red\', \'on-sale\', \'desc\', NULL, \'2023-05-22 05:23:55\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(61): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 05:24:35 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(61): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 05:24:35 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product 2\', \'img.jpg\', \'3000000\', \'xl\', \'red\', \'on-sale\', \'desc\', NULL, \'2023-05-22 05:24:35\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product 2\', \'img.jpg\', \'3000000\', \'xl\', \'red\', \'on-sale\', \'desc\', NULL, \'2023-05-22 05:24:35\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product 2\', \'img.jpg\', \'3000000\', \'xl\', \'red\', \'on-sale\', \'desc\', NULL, \'2023-05-22 05:24:35\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(61): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 05:25:57 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 05:25:57 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product 2\', \'img.jpg\', \'3000000\', \'xl\', \'red\', \'on-sale\', \'desc\', NULL, \'2023-05-22 05:25:57\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product 2\', \'img.jpg\', \'3000000\', \'xl\', \'red\', \'on-sale\', \'desc\', NULL, \'2023-05-22 05:25:57\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product 2\', \'img.jpg\', \'3000000\', \'xl\', \'red\', \'on-sale\', \'desc\', NULL, \'2023-05-22 05:25:57\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 05:26:34 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 05:26:34 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'prduct3\', \'img\', \'3432\', \'12\', \'red\', \'-\', \'-\', NULL, \'2023-05-22 05:26:34\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'prduct3\', \'img\', \'3432\', \'12\', \'red\', \'-\', \'-\', NULL, \'2023-05-22 05:26:34\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'prduct3\', \'img\', \'3432\', \'12\', \'red\', \'-\', \'-\', NULL, \'2023-05-22 05:26:34\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 05:26:58 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 05:26:58 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'prduct3\', \'img\', \'3432\', \'12\', \'red\', \'-\', \'-\', NULL, \'2023-05-22 05:26:58\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'prduct3\', \'img\', \'3432\', \'12\', \'red\', \'-\', \'-\', NULL, \'2023-05-22 05:26:58\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'prduct3\', \'img\', \'3432\', \'12\', \'red\', \'-\', \'-\', NULL, \'2023-05-22 05:26:58\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 05:27:28 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 05:27:28 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'prduct3\', \'img\', \'3432\', \'12\', \'red\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:27:28\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'prduct3\', \'img\', \'3432\', \'12\', \'red\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:27:28\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'prduct3\', \'img\', \'3432\', \'12\', \'red\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:27:28\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-22 05:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-22 05:28:31 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 05:28:31 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product3\', \'img3\', \'400000\', \'xl\', \'green\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:28:31\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product3\', \'img3\', \'400000\', \'xl\', \'green\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:28:31\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product3\', \'img3\', \'400000\', \'xl\', \'green\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:28:31\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 05:29:09 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 05:29:09 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product3\', \'img3\', \'400000\', \'xl\', \'green\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:29:09\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product3\', \'img3\', \'400000\', \'xl\', \'green\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:29:09\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product3\', \'img3\', \'400000\', \'xl\', \'green\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:29:09\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 05:29:42 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 05:29:42 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'jfkdng\', \'dfngf\', \'34543\', \'45\', \'-\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:29:42\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'jfkdng\', \'dfngf\', \'34543\', \'45\', \'-\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:29:42\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'jfkdng\', \'dfngf\', \'34543\', \'45\', \'-\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:29:42\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 05:31:14 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 05:31:15 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product-name\', \'img\', \'300000\', \'15\', \'-\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:31:14\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product-name\', \'img\', \'300000\', \'15\', \'-\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:31:14\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product-name\', \'img\', \'300000\', \'15\', \'-\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:31:14\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 05:31:58 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 05:31:58 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product-name\', \'img\', \'300000\', \'15\', \'-\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:31:58\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product-name\', \'img\', \'300000\', \'15\', \'-\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:31:58\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'product-name\', \'img\', \'300000\', \'15\', \'-\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:31:58\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-22 05:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-22 05:33:14 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 05:33:14 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'njkfd\', \'djksgnf\', \'3543\', \'fkjdng\', \'dfkng\', \'djfk\', \'dfkjgndj\', \'product-index\', \'2023-05-22 05:33:14\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'njkfd\', \'djksgnf\', \'3543\', \'fkjdng\', \'dfkng\', \'djfk\', \'dfkjgndj\', \'product-index\', \'2023-05-22 05:33:14\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'njkfd\', \'djksgnf\', \'3543\', \'fkjdng\', \'dfkng\', \'djfk\', \'dfkjgndj\', \'product-index\', \'2023-05-22 05:33:14\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 05:34:50 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 05:34:50 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'njkfd\', \'djksgnf\', \'3543\', \'fkjdng\', \'dfkng\', \'djfk\', \'dfkjgndj\', \'product-index\', \'2023-05-22 05:34:50\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'njkfd\', \'djksgnf\', \'3543\', \'fkjdng\', \'dfkng\', \'djfk\', \'dfkjgndj\', \'product-index\', \'2023-05-22 05:34:50\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'njkfd\', \'djksgnf\', \'3543\', \'fkjdng\', \'dfkng\', \'djfk\', \'dfkjgndj\', \'product-index\', \'2023-05-22 05:34:50\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 05:35:25 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 05:35:25 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'kfdlng\', \'kfjdg\', \'3453555\', \'dfkj\', \'-\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:35:25\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'kfdlng\', \'kfjdg\', \'3453555\', \'dfkj\', \'-\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:35:25\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'kfdlng\', \'kfjdg\', \'3453555\', \'dfkj\', \'-\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:35:25\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(62): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 05:36:01 --> mysqli_sql_exception: Unknown column 'slug' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(63): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 05:36:01 --> Unknown column 'slug' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'kfdlng\', \'kfjdg\', \'3453555\', \'dfkj\', \'-\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:36:01\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'kfdlng\', \'kfjdg\', \'3453555\', \'dfkj\', \'-\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:36:01\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'kfdlng\', \'kfjdg\', \'3453555\', \'dfkj\', \'-\', \'-\', \'-\', \'product-index\', \'2023-05-22 05:36:01\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(63): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 05:37:30 --> Undefined variable $title
+in APPPATH\Views\Product\index.php on line 11.
+ 1 APPPATH\Views\Product\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\Product\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\Product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(64): view('Product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-22 05:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 05:55:33 --> Invalid file: "product-image/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product-image/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-image/index', [], true)
+ 3 APPPATH\Controllers\ProductImagesController.php(15): view('product-image/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductImagesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductImagesController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-22 05:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 05:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 06:11:27 --> Undefined variable $products
+in APPPATH\Views\product-image\create.php on line 38.
+ 1 APPPATH\Views\product-image\create.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\product-image\\create.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\product-image\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-image/create', [], true)
+ 5 APPPATH\Controllers\ProductImagesController.php(24): view('product-image/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductImagesController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductImagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 06:12:28 --> Undefined variable $productModel
+in APPPATH\Controllers\ProductImagesController.php on line 24.
+ 1 APPPATH\Controllers\ProductImagesController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productModel', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Controllers\\ProductImagesController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductImagesController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductImagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 06:12:45 --> Undefined variable $products
+in APPPATH\Views\product-image\create.php on line 38.
+ 1 APPPATH\Views\product-image\create.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\product-image\\create.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\product-image\\create.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-image/create', [], true)
+ 5 APPPATH\Controllers\ProductImagesController.php(26): view('product-image/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductImagesController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductImagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 06:16:50 --> mysqli_sql_exception: Column 'price' cannot be null in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 06:16:50 --> Column 'price' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'1\', \'aslan5.jpg\', NULL, NULL, NULL, NULL, \'desc1\', \'product-index\', \'2023-05-22 06:16:50\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'1\', \'aslan5.jpg\', NULL, NULL, NULL, NULL, \'desc1\', \'product-index\', \'2023-05-22 06:16:50\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'1\', \'aslan5.jpg\', NULL, NULL, NULL, NULL, \'desc1\', \'product-index\', \'2023-05-22 06:16:50\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(59): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 06:17:30 --> mysqli_sql_exception: Column 'price' cannot be null in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 06:17:30 --> Column 'price' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'1\', \'aslan5.jpg\', NULL, NULL, NULL, NULL, \'desc1\', \'product-index\', \'2023-05-22 06:17:30\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'1\', \'aslan5.jpg\', NULL, NULL, NULL, NULL, \'desc1\', \'product-index\', \'2023-05-22 06:17:30\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'1\', \'aslan5.jpg\', NULL, NULL, NULL, NULL, \'desc1\', \'product-index\', \'2023-05-22 06:17:30\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(59): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 06:18:40 --> mysqli_sql_exception: Column 'price' cannot be null in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 06:18:40 --> Column 'price' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'1\', \'aslan5.jpg\', NULL, NULL, NULL, NULL, \'desc1\', \'product-index\', \'2023-05-22 06:18:40\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'1\', \'aslan5.jpg\', NULL, NULL, NULL, NULL, \'desc1\', \'product-index\', \'2023-05-22 06:18:40\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'1\', \'aslan5.jpg\', NULL, NULL, NULL, NULL, \'desc1\', \'product-index\', \'2023-05-22 06:18:40\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(59): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 06:19:12 --> mysqli_sql_exception: Column 'price' cannot be null in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 06:19:12 --> Column 'price' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'1\', \'aslan1.jpeg\', NULL, NULL, NULL, NULL, \'desc 1\', \'product-index\', \'2023-05-22 06:19:12\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'1\', \'aslan1.jpeg\', NULL, NULL, NULL, NULL, \'desc 1\', \'product-index\', \'2023-05-22 06:19:12\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'1\', \'aslan1.jpeg\', NULL, NULL, NULL, NULL, \'desc 1\', \'product-index\', \'2023-05-22 06:19:12\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(59): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-22 06:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-22 06:21:22 --> mysqli_sql_exception: Column 'price' cannot be null in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(59): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-05-22 06:21:22 --> Column 'price' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'1\', \'aslan2.jpg\', NULL, NULL, NULL, NULL, \'desc1\', \'product-index\', \'2023-05-22 06:21:22\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'1\', \'aslan2.jpg\', NULL, NULL, NULL, NULL, \'desc1\', \'product-index\', \'2023-05-22 06:21:22\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (\'1\', \'aslan2.jpg\', NULL, NULL, NULL, NULL, \'desc1\', \'product-index\', \'2023-05-22 06:21:22\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`, `created_at`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ProductController.php(59): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 06:22:46 --> Undefined variable $title
+in APPPATH\Views\Product\index.php on line 11.
+ 1 APPPATH\Views\Product\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\Product\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\Product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(60): view('Product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 06:23:27 --> Undefined variable $title
+in APPPATH\Views\Product\index.php on line 11.
+ 1 APPPATH\Views\Product\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\Product\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\Product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(60): view('Product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-22 06:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 06:25:57 --> Class "App\Controllers\ProductImage" not found
+in APPPATH\Controllers\ProductImagesController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductImagesController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductImagesController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-22 06:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 06:26:45 --> Undefined variable $productimages
+in APPPATH\Views\product-image\index.php on line 68.
+ 1 APPPATH\Views\product-image\index.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productimages', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\product-image\\index.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\product-image\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Product-image/index', [], true)
+ 5 APPPATH\Controllers\ProductImagesController.php(57): view('Product-image/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductImagesController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductImagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 06:28:07 --> Undefined variable $productImageModel
+in APPPATH\Controllers\ProductImagesController.php on line 56.
+ 1 APPPATH\Controllers\ProductImagesController.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productImageModel', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Controllers\\ProductImagesController.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductImagesController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductImagesController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-22 06:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 06:28:26 --> Undefined variable $productimages
+in APPPATH\Views\product-image\index.php on line 68.
+ 1 APPPATH\Views\product-image\index.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productimages', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\product-image\\index.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\product-image\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Product-image/index', [], true)
+ 5 APPPATH\Controllers\ProductImagesController.php(57): view('Product-image/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductImagesController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductImagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-22 06:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 06:31:10 --> Undefined variable $productimages
+in APPPATH\Views\product-image\index.php on line 68.
+ 1 APPPATH\Views\product-image\index.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productimages', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\product-image\\index.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\product-image\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Product-image/index', [], true)
+ 5 APPPATH\Controllers\ProductImagesController.php(58): view('Product-image/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductImagesController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductImagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-22 06:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 06:33:06 --> Undefined variable $productimages
+in APPPATH\Views\product-image\index.php on line 68.
+ 1 APPPATH\Views\product-image\index.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productimages', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\product-image\\index.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\product-image\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Product-image/index', [], true)
+ 5 APPPATH\Controllers\ProductImagesController.php(58): view('Product-image/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductImagesController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductImagesController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-22 06:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 06:38:39 --> Class "App\Controllers\ProductImage" not found
+in APPPATH\Controllers\ProductImagesController.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductImagesController->delete('4')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductImagesController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-22 06:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 06:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 07:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 07:13:00 --> Call to undefined method App\Models\Product::hasMany
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\Product.php(56): CodeIgniter\Model->__call('hasMany', [...])
+ 2 APPPATH\Controllers\ProductController.php(16): App\Models\Product->productimages()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 07:16:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH\Models\MYModel.php on line 20.
+ 1 APPPATH\Models\Product.php(56): App\Models\MYModel->hasMany(Object(App\Models\ProductImages), 'product_id')
+ 2 APPPATH\Controllers\ProductController.php(16): App\Models\Product->productimages()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-22 07:19:02 --> mysqli_sql_exception: Unknown column 'product_id' in 'where clause' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Models\MYModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\github31\aradan_codeigniter\app\Models\Product.php(56): App\Models\MYModel->hasMany(Object(App\Models\ProductImages), 'product_id')
+#6 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(16): App\Models\Product->productimages()
+#7 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->index()
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-05-22 07:19:02 --> Unknown column 'product_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `products`
+WHERE `product_id` = \'id\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `products`
+WHERE `product_id` = \'id\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `products`
+WHERE `product_id` = \'id\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `product_id` = :product_id:', [...], false)
+ 5 APPPATH\Models\MYModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Product.php(56): App\Models\MYModel->hasMany(Object(App\Models\ProductImages), 'product_id')
+ 7 APPPATH\Controllers\ProductController.php(16): App\Models\Product->productimages()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 07:19:41 --> Call to undefined method App\Models\Product::hasMany
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\Product.php(56): CodeIgniter\Model->__call('hasMany', [...])
+ 2 APPPATH\Controllers\ProductController.php(16): App\Models\Product->productimages()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 07:22:24 --> Call to undefined method App\Models\Product::productimages
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\ProductController.php(16): CodeIgniter\Model->__call('productimages', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 07:22:52 --> Call to a member function findAll() on array
+in APPPATH\Controllers\ProductController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 07:23:09 --> Call to a member function get() on array
+in APPPATH\Controllers\ProductController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-22 07:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-22 07:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-22 07:28:19 --> Undefined array key "products"
+in APPPATH\Controllers\ProductController.php on line 17.
+ 1 APPPATH\Controllers\ProductController.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "products"', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Controllers\\ProductController.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 07:28:30 --> Call to a member function findAll() on array
+in APPPATH\Controllers\ProductController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 07:29:31 --> Call to a member function getResults() on array
+in APPPATH\Controllers\ProductController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 07:29:40 --> Call to a member function getResult() on array
+in APPPATH\Controllers\ProductController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-22 07:30:33 --> Call to a member function get() on array
+in APPPATH\Controllers\ProductController.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')

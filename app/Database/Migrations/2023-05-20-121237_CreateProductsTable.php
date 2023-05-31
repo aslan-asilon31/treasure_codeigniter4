@@ -17,12 +17,35 @@ class CreateProductsTable extends Migration
             ],
             'name' => [
                 'type' => 'VARCHAR',
-                'constraint' => 255,
+                'constraint' => 100,
+            ],
+            'image' => [
+                'type' => 'VARCHAR',
+                'constraint' => 100,
             ],
             'price' => [
-                'type' => 'DECIMAL',
-                'constraint' => '10,2',
-                'default' => '0.00',
+                'type' => 'INTEGER',
+                'constraint' => 15,
+            ],
+            'stock' => [
+                'type' => 'INTEGER',
+                'constraint' => 100,
+            ],
+            'discount' => [
+                'type' => 'INTEGER',
+                'constraint' => 100,
+            ],
+            'status' => [
+                'type' => 'VARCHAR',
+                'constraint' => 100,
+            ],
+            'slug' => [
+                'type' => 'VARCHAR',
+                'constraint' => 100,
+            ],
+            'deleted_at' => [
+                'type' => 'DATETIME',
+                'null' => true,
             ],
             'created_at' => [
                 'type' => 'DATETIME',

@@ -1,0 +1,465 @@
+INFO - 2023-05-31 00:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 00:23:50 --> Invalid file: "Product-detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Product-detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Product-detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('Product-detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-31 00:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 00:24:33 --> Invalid file: "product-detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product-detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('product-detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:24:52 --> Invalid file: "product_detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product_detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product_detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('product_detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-31 00:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 00:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 00:25:40 --> Invalid file: "product_detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product_detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product_detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('product_detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:26:01 --> Invalid file: "productdetail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('productdetail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-31 00:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 00:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 00:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 00:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 00:29:43 --> Invalid file: "product-detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product-detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('product-detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:33:39 --> Invalid file: "productdetail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(19): view('productdetail/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:34:03 --> Invalid file: "productdetail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(19): view('productdetail/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:34:25 --> Invalid file: "productdetail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(19): view('productdetail/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:36:50 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\ProductDetailController.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Controllers\\ProductDetailController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProductDetailController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProductDetailController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\ProductDetailController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:37:03 --> Invalid file: "productdetail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(19): view('productdetail/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:38:15 --> Invalid file: "productdetail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(19): view('productdetail/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:38:47 --> Invalid file: "productdetail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(19): view('productdetail/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:38:59 --> Invalid file: "productdetail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(19): view('productdetail/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:41:03 --> Invalid file: "productdetail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(19): view('productdetail/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:41:48 --> Invalid file: "productdetail\index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail\\index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail\\index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(19): view('productdetail\\index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:42:25 --> Invalid file: "productdetail.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(19): view('productdetail')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:42:59 --> Invalid file: "productdetail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(19): view('productdetail/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:43:02 --> Invalid file: "productdetail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(19): view('productdetail/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:43:32 --> Invalid file: "productdetail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(19): view('productdetail/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:43:43 --> Invalid file: "productdetail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(19): view('productdetail/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-31 00:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 00:46:11 --> Invalid file: "productdetail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productdetail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('productdetail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('productdetail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:47:05 --> Invalid file: "product-detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product-detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('product-detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-31 00:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 00:47:20 --> Invalid file: "product-detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product-detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('product-detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-31 00:49:53 --> mysqli_sql_exception: Table 'users' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-125416_CreateUsersTable.php(58): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateUsersTable->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+CRITICAL - 2023-05-31 00:50:11 --> Class "App\Controllers\ProductDetails" not found
+in APPPATH\Controllers\ProductDetailController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-31 00:51:19 --> mysqli_sql_exception: Table 'aradan_codeigniter.product_details' doesn't exist in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductDetailController.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-05-31 00:51:19 --> Table 'aradan_codeigniter.product_details' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `product_details`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `product_details`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `product_details`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `product_details`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductDetailController.php(16): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-31 00:53:22 --> mysqli_sql_exception: Table 'users' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-125416_CreateUsersTable.php(58): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateUsersTable->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-05-31 00:57:30 --> Invalid file: "product-detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product-detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('product-detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:58:53 --> Invalid file: "product-detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product-detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('product-detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:59:40 --> Invalid file: "product-detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product-detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('product-detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:59:44 --> Invalid file: "product-detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product-detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('product-detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:59:44 --> Invalid file: "product-detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product-detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('product-detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 00:59:54 --> Invalid file: "product-detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product-detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('product-detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-31 01:00:09 --> Invalid file: "product-detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product-detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('product-detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-31 01:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-31 02:00:35 --> mysqli_sql_exception: Table 'users' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-125416_CreateUsersTable.php(58): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateUsersTable->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-05-31 02:01:15 --> mysqli_sql_exception: Table 'products' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-121237_CreateProductsTable.php(61): CodeIgniter\Database\Forge->createTable('products')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateProductsTable->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-05-31 02:03:57 --> mysqli_sql_exception: Table 'products' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-121237_CreateProductsTable.php(61): CodeIgniter\Database\Forge->createTable('products')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateProductsTable->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+CRITICAL - 2023-05-31 02:08:12 --> Invalid file: "product-detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product-detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(17): view('product-detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-31 02:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 02:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 02:14:00 --> Invalid file: "product-detail/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product-detail/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product-detail/index', [], true)
+ 3 APPPATH\Controllers\ProductDetailController.php(19): view('product-detail/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductDetailController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductDetailController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-31 02:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 02:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 02:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 02:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 02:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 02:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

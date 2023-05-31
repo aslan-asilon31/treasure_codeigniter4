@@ -2,3 +2,14 @@
 ===== when cannot push to github 
 after generate new token
 git remote set-url origin https://<token>@github.com/<username>/<repo>
+
+
+
+============================
+count row :
+<?php echo $users; ?>
+
+
+
+====================crud success
+https://makitweb.com/crud-create-read-update-delete-in-a-codeigniter-4/

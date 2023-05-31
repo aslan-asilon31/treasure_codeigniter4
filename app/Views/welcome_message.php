@@ -18,7 +18,7 @@
             >
               <img
                 class="figure-img img-fluid d-block mx-auto mb-0 animate__animated animate__bounce animate__infinite infinite animate__slow"
-                src="<?= base_url('assets/frontend/img/banner-img-lg-ci.png')?>"
+                src="/assets/frontend/img/banner-img-lg-ci.png"
                 alt=""
               />
             </figure>
@@ -39,7 +39,7 @@
               data-bs-toggle="modal"
               data-bs-target="#video-modal"
             >
-              <img  src="<?= base_url('assets/frontend/img/ic-play.svg')?>" alt="">
+              <img  src="/assets/frontend/img/ic-play.svg" alt="">
             </button>
           </section>
           <!-- End main Banner -->
@@ -59,7 +59,7 @@
                   <div class="new-product-img-outer bg-pink position-relative">
                     <img
                       class="new-product-img position-absolute"
-                      src="<?= base_url('assets/frontend/img/product-sm-01.png')?>"
+                      src="/assets/frontend/img/product-sm-01.png"
                       alt=""
                     />
                   </div>
@@ -68,10 +68,10 @@
                       Air Max pegasus 37
                     </h5>
                     <div class="product-rating d-flex">
-                      <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                      <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                      <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                      <img src="<?= base_url('assets/frontend/img/star.svg')?>" alt="" />
+                      <img src="/assets/frontend/img/star-a.svg" alt="" />
+                      <img src="/assets/frontend/img/star-a.svg" alt="" />
+                      <img src="/assets/frontend/img/star-a.svg" alt="" />
+                      <img src="/assets/frontend/img/star.svg" alt="" />
                     </div>
                     <p class="new-product-price">$189</p>
                     <p class="new-product-text">Women’s Running shoe</p>
@@ -94,7 +94,7 @@
                   >
                     <img
                       class="new-product-img position-absolute"
-                      src="<?= base_url('assets/frontend/img/product-sm-02.png')?>"
+                      src="/assets/frontend/img/product-sm-02.png"
                       alt=""
                     />
                   </div>
@@ -103,10 +103,10 @@
                       Air Max pegasus 37
                     </h5>
                     <div class="product-rating d-flex">
-                      <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                      <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                      <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                      <img src="<?= base_url('assets/frontend/img/star.svg')?>" alt="" />
+                      <img src="/assets/frontend/img/star-a.svg" alt="" />
+                      <img src="/assets/frontend/img/star-a.svg" alt="" />
+                      <img src="/assets/frontend/img/star-a.svg" alt="" />
+                      <img src="/assets/frontend/img/star.svg" alt="" />
                     </div>
                     <p class="new-product-price">$189</p>
                     <p class="new-product-text">Women’s Running shoe</p>
@@ -127,7 +127,7 @@
                   <div class="new-product-img-outer bg-green position-relative">
                     <img
                       class="new-product-img position-absolute"
-                      src="<?= base_url('assets/frontend/img/product-sm-03.png')?>"
+                      src="/assets/frontend/img/product-sm-03.png"
                       alt=""
                     />
                   </div>
@@ -136,10 +136,10 @@
                       Air Max pegasus 37
                     </h5>
                     <div class="product-rating d-flex">
-                      <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                      <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                      <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                      <img src="<?= base_url('assets/frontend/img/star.svg')?>" alt="" />
+                      <img src="/assets/frontend/img/star-a.svg" alt="" />
+                      <img src="/assets/frontend/img/star-a.svg" alt="" />
+                      <img src="/assets/frontend/img/star-a.svg" alt="" />
+                      <img src="/assets/frontend/img/star.svg" alt="" />
                     </div>
                     <p class="new-product-price">$189</p>
                     <p class="new-product-text">Women’s Running shoe</p>
@@ -162,7 +162,7 @@
                   >
                     <img
                       class="new-product-img position-absolute"
-                      src="<?= base_url('assets/frontend/img/product-sm-04.png')?>"
+                      src="/assets/frontend/img/product-sm-04.png"
                       alt=""
                     />
                   </div>
@@ -171,10 +171,10 @@
                       Air Max pegasus 37
                     </h5>
                     <div class="product-rating d-flex">
-                      <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                      <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                      <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                      <img src="<?= base_url('assets/frontend/img/star.svg')?>" alt="" />
+                      <img src="/assets/frontend/img/star-a.svg" alt="" />
+                      <img src="/assets/frontend/img/star-a.svg" alt="" />
+                      <img src="/assets/frontend/img/star-a.svg" alt="" />
+                      <img src="/assets/frontend/img/star.svg" alt="" />
                     </div>
                     <p class="new-product-price">$189</p>
                     <p class="new-product-text">Women’s Running shoe</p>
@@ -255,7 +255,7 @@
                   <figure class="figure d-block popular-picks-figure mb-0">
                     <img
                       class="figure-img img-fluid d-block mx-auto mb-0"
-                      src="<?= base_url('assets/frontend/img/popular-picks-01.jpg')?>"
+                      src="/assets/frontend/img/popular-picks-01.jpg"
                       alt=""
                     />
                   </figure>
@@ -269,7 +269,7 @@
                   <figure class="figure d-block popular-picks-figure mb-0">
                     <img
                       class="figure-img img-fluid d-block mx-auto mb-0"
-                      src="<?= base_url('assets/frontend/img/popular-picks-02.jpg')?>"
+                      src="/assets/frontend/img/popular-picks-02.jpg"
                       alt=""
                     />
                   </figure>
@@ -283,7 +283,7 @@
                   <figure class="figure d-block popular-picks-figure mb-0">
                     <img
                       class="figure-img img-fluid d-block mx-auto mb-0"
-                      src="<?= base_url('assets/frontend/img/popular-picks-03.jpg')?>"
+                      src="/assets/frontend/img/popular-picks-03.jpg"
                       alt=""
                     />
                   </figure>
@@ -297,7 +297,7 @@
                   <figure class="figure d-block popular-picks-figure mb-0">
                     <img
                       class="figure-img img-fluid d-block mx-auto mb-0"
-                      src="<?= base_url('assets/frontend/img/popular-picks-01.jpg')?>"
+                      src="/assets/frontend/img/popular-picks-01.jpg"
                       alt=""
                     />
                   </figure>
@@ -311,7 +311,7 @@
                   <figure class="figure d-block popular-picks-figure mb-0">
                     <img
                       class="figure-img img-fluid d-block mx-auto mb-0"
-                      src="<?= base_url('assets/frontend/img/popular-picks-02.jpg')?>"
+                      src="/assets/frontend/img/popular-picks-02.jpg"
                       alt=""
                     />
                   </figure>
@@ -325,7 +325,7 @@
                   <figure class="figure d-block popular-picks-figure mb-0">
                     <img
                       class="figure-img img-fluid d-block mx-auto mb-0"
-                      src="<?= base_url('assets/frontend/img/popular-picks-03.jpg')?>"
+                      src="/assets/frontend/img/popular-picks-03.jpg"
                       alt=""
                     />
                   </figure>
@@ -368,7 +368,7 @@
                 >
                   <img
                     class="figure-img img-fluid d-block"
-                    src="<?= base_url('assets/frontend/img/about-img-01.jpg')?>"
+                    src="/assets/frontend/img/about-img-01.jpg"
                     alt=""
                   />
                 </figure>
@@ -380,7 +380,7 @@
                 >
                   <img
                     class="figure-img img-fluid d-block"
-                    src="<?= base_url('assets/frontend/img/about-img-02.jpg')?>"
+                    src="/assets/frontend/img/about-img-02.jpg"
                     alt=""
                   />
                 </figure>
@@ -390,7 +390,7 @@
                 >
                   <img
                     class="figure-img img-fluid d-block"
-                    src="<?= base_url('assets/frontend/img/about-img-03.jpg')?>"
+                    src="/assets/frontend/img/about-img-03.jpg"
                     alt=""
                   />
                 </figure>
@@ -408,7 +408,7 @@
                 <figure class="figure d-block payday-sale-figure mb-0">
                   <img
                     class="figure-img img-fluid d-block mx-auto mb-0"
-                    src="<?= base_url('assets/frontend/img/payday-sale-img.jpg')?>"
+                    src="/assets/frontend/img/payday-sale-img.jpg"
                     alt=""
                   />
                 </figure>
@@ -491,7 +491,7 @@
                 <div class="explore-categories-card">
                   <img
                     class="explore-categories-card-img"
-                    src="<?= base_url('assets/frontend/img/categories-img-01.jpg')?>"
+                    src="/assets/frontend/img/categories-img-01.jpg"
                     alt=""
                   />
                   <a
@@ -507,7 +507,7 @@
                     >
                     <img
                       class="arrow-icon"
-                      src="<?= base_url('assets/frontend/img/arrow-right.svg')?>"
+                      src="/assets/frontend/img/arrow-right.svg"
                       alt=""
                     />
                   </a>
@@ -522,7 +522,7 @@
                 <div class="explore-categories-card">
                   <img
                     class="explore-categories-card-img"
-                    src="<?= base_url('assets/frontend/img/categories-img-02.jpg')?>"
+                    src="/assets/frontend/img/categories-img-02.jpg"
                     alt=""
                   />
                   <a
@@ -538,7 +538,7 @@
                     >
                     <img
                       class="arrow-icon"
-                      src="<?= base_url('assets/frontend/img/arrow-right.svg')?>"
+                      src="/assets/frontend/img/arrow-right.svg"
                       alt=""
                     />
                   </a>
@@ -553,7 +553,7 @@
                 <div class="explore-categories-card">
                   <img
                     class="explore-categories-card-img"
-                    src="<?= base_url('assets/frontend/img/categories-img-03.jpg')?>"
+                    src="/assets/frontend/img/categories-img-03.jpg"
                     alt=""
                   />
                   <a
@@ -569,7 +569,7 @@
                     >
                     <img
                       class="arrow-icon"
-                      src="<?= base_url('assets/frontend/img/arrow-right.svg')?>"
+                      src="/assets/frontend/img/arrow-right.svg"
                       alt=""
                     />
                   </a>
@@ -584,7 +584,7 @@
                 <div class="explore-categories-card">
                   <img
                     class="explore-categories-card-img"
-                    src="<?= base_url('assets/frontend/img/categories-img-01.jpg')?>"
+                    src="/assets/frontend/img/categories-img-01.jpg"
                     alt=""
                   />
                   <a
@@ -600,7 +600,7 @@
                     >
                     <img
                       class="arrow-icon"
-                      src="<?= base_url('assets/frontend/img/arrow-right.svg')?>"
+                      src="/assets/frontend/img/arrow-right.svg"
                       alt=""
                     />
                   </a>
@@ -615,7 +615,7 @@
                 <div class="explore-categories-card">
                   <img
                     class="explore-categories-card-img"
-                    src="<?= base_url('assets/frontend/img/categories-img-02.jpg')?>"
+                    src="/assets/frontend/img/categories-img-02.jpg"
                     alt=""
                   />
                   <a
@@ -631,7 +631,7 @@
                     >
                     <img
                       class="arrow-icon"
-                      src="<?= base_url('assets/frontend/img/arrow-right.svg')?>"
+                      src="/assets/frontend/img/arrow-right.svg"
                       alt=""
                     />
                   </a>
@@ -645,7 +645,7 @@
                 <div class="explore-categories-card">
                   <img
                     class="explore-categories-card-img"
-                    src="<?= base_url('assets/frontend/img/categories-img-03.jpg')?>"
+                    src="/assets/frontend/img/categories-img-03.jpg"
                     alt=""
                   />
                   <a
@@ -661,7 +661,7 @@
                     >
                     <img
                       class="arrow-icon"
-                      src="<?= base_url('assets/frontend/img/arrow-right.svg')?>"
+                      src="/assets/frontend/img/arrow-right.svg"
                       alt=""
                     />
                   </a>
@@ -675,7 +675,7 @@
                 <div class="explore-categories-card">
                   <img
                     class="explore-categories-card-img"
-                    src="<?= base_url('assets/frontend/img/categories-img-01.jpg')?>"
+                    src="/assets/frontend/img/categories-img-01.jpg"
                     alt=""
                   />
                   <a
@@ -691,7 +691,7 @@
                     >
                     <img
                       class="arrow-icon"
-                      src="<?= base_url('assets/frontend/img/arrow-right.svg')?>"
+                      src="/assets/frontend/img/arrow-right.svg"
                       alt=""
                     />
                   </a>
@@ -705,7 +705,7 @@
                 <div class="explore-categories-card">
                   <img
                     class="explore-categories-card-img"
-                    src="<?= base_url('assets/frontend/img/categories-img-02.jpg')?>"
+                    src="/assets/frontend/img/categories-img-02.jpg"
                     alt=""
                   />
                   <a
@@ -721,7 +721,7 @@
                     >
                     <img
                       class="arrow-icon"
-                      src="<?= base_url('assets/frontend/img/arrow-right.svg')?>"
+                      src="/assets/frontend/img/arrow-right.svg"
                       alt=""
                     />
                   </a>
@@ -735,7 +735,7 @@
                 <div class="explore-categories-card">
                   <img
                     class="explore-categories-card-img"
-                    src="<?= base_url('assets/frontend/img/categories-img-03.jpg')?>"
+                    src="/assets/frontend/img/categories-img-03.jpg"
                     alt=""
                   />
                   <a
@@ -751,7 +751,7 @@
                     >
                     <img
                       class="arrow-icon"
-                      src="<?= base_url('assets/frontend/img/arrow-right.svg')?>"
+                      src="/assets/frontend/img/arrow-right.svg"
                       alt=""
                     />
                   </a>
@@ -799,16 +799,16 @@
                           class="product-rating d-flex"
                           data-swiper-parallax="-200"
                         >
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
                         </div>
 
                         <div class="comment" data-swiper-parallax="-300">
                           <img
                             class="invertedcomma d-block"
-                            src="<?= base_url('assets/frontend/img/ic-invertedcomma.svg')?>"
+                            src="/assets/frontend/img/ic-invertedcomma.svg"
                             alt=""
                           />
                           <p>
@@ -832,16 +832,16 @@
                           class="product-rating d-flex"
                           data-swiper-parallax="-200"
                         >
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
                         </div>
 
                         <div class="comment" data-swiper-parallax="-300">
                           <img
                             class="invertedcomma d-block"
-                            src="<?= base_url('assets/frontend/img/ic-invertedcomma.svg')?>"
+                            src="/assets/frontend/img/ic-invertedcomma.svg"
                             alt=""
                           />
                           <p>
@@ -865,16 +865,16 @@
                           class="product-rating d-flex"
                           data-swiper-parallax="-200"
                         >
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
                         </div>
 
                         <div class="comment" data-swiper-parallax="-300">
                           <img
                             class="invertedcomma d-block"
-                            src="<?= base_url('assets/frontend/img/ic-invertedcomma.svg')?>"
+                            src="/assets/frontend/img/ic-invertedcomma.svg"
                             alt=""
                           />
                           <p>
@@ -898,16 +898,16 @@
                           class="product-rating d-flex"
                           data-swiper-parallax="-200"
                         >
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
-                          <img src="<?= base_url('assets/frontend/img/star-a.svg')?>" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
+                          <img src="/assets/frontend/img/star-a.svg" alt="" />
                         </div>
 
                         <div class="comment" data-swiper-parallax="-300">
                           <img
                             class="invertedcomma d-block"
-                            src="<?= base_url('assets/frontend/img/ic-invertedcomma.svg')?>"
+                            src="/assets/frontend/img/ic-invertedcomma.svg"
                             alt=""
                           />
                           <p>
@@ -933,7 +933,7 @@
                 >
                   <img
                     class="figure-img img-fluid d-block mx-auto mb-0"
-                    src="<?= base_url('assets/frontend/img/reivew-img.jpg')?>"
+                    src="/assets/frontend/img/reivew-img.jpg"
                     alt=""
                   />
                 </figure>
@@ -979,7 +979,7 @@
                         aria-controls="flush-collapseOne"
                       >
                         What services does TanahAir Offer?
-                        <img class="icon" src="<?= base_url('assets/frontend/img/ic-plus.svg')?>" alt="" />
+                        <img class="icon" src="/assets/frontend/img/ic-plus.svg" alt="" />
                       </button>
                     </h2>
                     <div
@@ -1011,7 +1011,7 @@
                       >
                         How does TanahAir create website content without knowing
                         our Business plan?
-                        <img class="icon" src="<?= base_url('assets/frontend/img/ic-plus.svg')?>" alt="" />
+                        <img class="icon" src="/assets/frontend/img/ic-plus.svg" alt="" />
                       </button>
                     </h2>
                     <div
@@ -1043,7 +1043,7 @@
                         aria-controls="flush-collapseThree"
                       >
                         What often will results be reported?
-                        <img class="icon" src="<?= base_url('assets/frontend/img/ic-plus.svg')?>" alt="" />
+                        <img class="icon" src="/assets/frontend/img/ic-plus.svg" alt="" />
                       </button>
                     </h2>
                     <div
@@ -1081,7 +1081,7 @@
                       >
                         Why should i choose a Design studio like TanahAir over
                         full-service agency?
-                        <img class="icon" src="<?= base_url('assets/frontend/img/ic-plus.svg')?>" alt="" />
+                        <img class="icon" src="/assets/frontend/img/ic-plus.svg" alt="" />
                       </button>
                     </h2>
                     <div
@@ -1114,7 +1114,7 @@
                         aria-controls="flush-collapse02"
                       >
                         What will be delivered? And When?
-                        <img class="icon" src="<?= base_url('assets/frontend/img/ic-plus.svg')?>" alt="" />
+                        <img class="icon" src="/assets/frontend/img/ic-plus.svg" alt="" />
                       </button>
                     </h2>
                     <div
@@ -1148,7 +1148,7 @@
                       >
                         How Quickly will i start seeing result after working
                         with TanahAir?
-                        <img class="icon" src="<?= base_url('assets/frontend/img/ic-plus.svg')?>" alt="" />
+                        <img class="icon" src="/assets/frontend/img/ic-plus.svg" alt="" />
                       </button>
                     </h2>
                     <div
@@ -1195,12 +1195,12 @@
                 >
                   <img
                     class="figure-img img-fluid d-block mx-auto mb-0"
-                    src="<?= base_url('assets/frontend/img/follow-instagram-products-01.jpg')?>"
+                    src="/assets/frontend/img/follow-instagram-products-01.jpg"
                     alt=""
                   />
                   <span
                     class="follow-instagram-hover position-absolute d-flex align-content-center justify-content-center"
-                    ><img src="<?= base_url('assets/frontend/img/ic-instagram-w.svg')?>" alt=""
+                    ><img src="/assets/frontend/img/ic-instagram-w.svg" alt=""
                   /></span>
                 </a>
               </div>
@@ -1215,12 +1215,12 @@
                 >
                   <img
                     class="figure-img img-fluid d-block mx-auto mb-0"
-                    src="<?= base_url('assets/frontend/img/follow-instagram-products-04.jpg')?>"
+                    src="/assets/frontend/img/follow-instagram-products-04.jpg"
                     alt=""
                   />
                   <span
                     class="follow-instagram-hover position-absolute d-flex align-content-center justify-content-center"
-                    ><img src="<?= base_url('assets/frontend/img/ic-instagram-w.svg')?>" alt=""
+                    ><img src="/assets/frontend/img/ic-instagram-w.svg" alt=""
                   /></span>
                 </a>
               </div>
@@ -1235,12 +1235,12 @@
                 >
                   <img
                     class="figure-img img-fluid d-block mx-auto mb-0"
-                    src="<?= base_url('assets/frontend/img/follow-instagram-products-03.jpg')?>"
+                    src="/assets/frontend/img/follow-instagram-products-03.jpg"
                     alt=""
                   />
                   <span
                     class="follow-instagram-hover position-absolute d-flex align-content-center justify-content-center"
-                    ><img src="<?= base_url('assets/frontend/img/ic-instagram-w.svg')?>" alt=""
+                    ><img src="/assets/frontend/img/ic-instagram-w.svg" alt=""
                   /></span>
                 </a>
               </div>
@@ -1255,12 +1255,12 @@
                 >
                   <img
                     class="figure-img img-fluid d-block mx-auto mb-0"
-                    src="<?= base_url('assets/frontend/img/follow-instagram-products-02.jpg')?>"
+                    src="/assets/frontend/img/follow-instagram-products-02.jpg"
                     alt=""
                   />
                   <span
                     class="follow-instagram-hover position-absolute d-flex align-content-center justify-content-center"
-                    ><img src="<?= base_url('assets/frontend/img/ic-instagram-w.svg')?>" alt=""
+                    ><img src="/assets/frontend/img/ic-instagram-w.svg" alt=""
                   /></span>
                 </a>
               </div>
@@ -1275,12 +1275,12 @@
                 >
                   <img
                     class="figure-img img-fluid d-block mx-auto mb-0"
-                    src="<?= base_url('assets/frontend/img/follow-instagram-products-05.jpg')?>"
+                    src="/assets/frontend/img/follow-instagram-products-05.jpg"
                     alt=""
                   />
                   <span
                     class="follow-instagram-hover position-absolute d-flex align-content-center justify-content-center"
-                    ><img src="<?= base_url('assets/frontend/img/ic-instagram-w.svg')?>" alt=""
+                    ><img src="/assets/frontend/img/ic-instagram-w.svg" alt=""
                   /></span>
                 </a>
               </div>
@@ -1295,12 +1295,12 @@
                 >
                   <img
                     class="figure-img img-fluid d-block mx-auto mb-0"
-                    src="<?= base_url('assets/frontend/img/follow-instagram-products-06.jpg')?>"
+                    src="/assets/frontend/img/follow-instagram-products-06.jpg"
                     alt=""
                   />
                   <span
                     class="follow-instagram-hover position-absolute d-flex align-content-center justify-content-center"
-                    ><img src="<?= base_url('assets/frontend/img/ic-instagram-w.svg')?>" alt=""
+                    ><img src="/assets/frontend/img/ic-instagram-w.svg" alt=""
                   /></span>
                 </a>
               </div>

@@ -1,0 +1,42 @@
+INFO - 2023-05-21 13:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-21 13:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-21 13:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-21 13:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-21 13:44:22 --> Undefined variable $title
+in APPPATH\Views\Product\index.php on line 11.
+ 1 APPPATH\Views\Product\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\Product\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\Product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(67): view('Product/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->delete('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-21 13:45:02 --> Undefined variable $products
+in APPPATH\Views\Product\index.php on line 62.
+ 1 APPPATH\Views\Product\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\Product\\index.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\Product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(68): view('Product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->delete('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-21 13:45:29 --> Call to a member function with() on string
+in APPPATH\Controllers\ProductController.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->delete('5')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-21 13:46:08 --> Call to a member function with() on string
+in APPPATH\Controllers\ProductController.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->delete('5')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')

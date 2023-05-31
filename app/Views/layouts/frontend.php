@@ -10,9 +10,9 @@
     <link
       rel="apple-touch-icon"
       sizes="76x76"
-      href="<?= base_url('assets/frontend/img/apple-icon.png')?>"
+      href="/assets/frontend/img/apple-icon.png"
     />
-    <link rel="icon" type="image/png" href="<?= base_url('assets/frontend/img/favicon.png')?>" />
+    <link rel="icon" type="image/png" href="/assets/frontend/img/favicon.png" />
     <title>Aradan Codeigniter</title>
 
     <!-- Fonts  -->
@@ -48,7 +48,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- CSS Files -->
-    <link id="pagestyle" href="<?= base_url('assets/frontend/css/app.css?v=1.0.0')?>" rel="stylesheet" />
+    <link id="pagestyle" href="/assets/frontend/css/app.css?v=1.0.0" rel="stylesheet" />
     <!-- <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -93,7 +93,7 @@
         <nav class="navbar navbar-expand-lg p-0">
           <div class="container-xxl ">
             <a class="navbar-brand" href="/" title="Aradan Template by AppSeed"
-              ><img class="animate__animated animate__heartBeat animate__infinite	infinite animate__slow" src="<?= base_url('assets/frontend/img/logo.svg')?>" alt="Aradan Template by AppSeed"
+              ><img class="animate__animated animate__heartBeat animate__infinite	infinite animate__slow" src="/assets/frontend/img/logo.svg" alt="Aradan Template by AppSeed"
             /></a>
 
             <div
@@ -108,7 +108,7 @@
                   href="#"
                   title="Aradan Template by AppSeed"
                   ><img
-                    src="<?= base_url('assets/frontend/img/logo.svg')?>"
+                    src="/assets/frontend/img/logo.svg"
                     alt="Aradan Template by AppSeed"
                 /></a>
                 <button
@@ -275,7 +275,7 @@
                 data-aos="fade-right"
                 data-aos-anchor-placement="center-bottom"
               >
-                <img src="<?= base_url('assets/frontend/img/ic-check.svg')?>" alt="" />Duties and Taxes
+                <img src="/assets/frontend/img/ic-check.svg" alt="" />Duties and Taxes
                 Guaranteed
               </li>
               <li
@@ -283,7 +283,7 @@
                 data-aos-anchor-placement="center-bottom"
                 data-aos-delay="200"
               >
-                <img src="<?= base_url('assets/frontend/img/ic-check.svg')?>" alt="" />Free Express
+                <img src="/assets/frontend/img/ic-check.svg" alt="" />Free Express
                 Shipping
               </li>
               <li
@@ -291,14 +291,14 @@
                 data-aos-anchor-placement="center-bottom"
                 data-aos-delay="400"
               >
-                <img src="<?= base_url('assets/frontend/img/ic-check.svg')?>" alt="" />Customer Love
+                <img src="/assets/frontend/img/ic-check.svg" alt="" />Customer Love
               </li>
               <li
                 data-aos="fade-right"
                 data-aos-anchor-placement="center-bottom"
                 data-aos-delay="400"
               >
-                <img src="<?= base_url('assets/frontend/img/ic-check.svg')?>" alt="" />Easy Returns
+                <img src="/assets/frontend/img/ic-check.svg" alt="" />Easy Returns
               </li>
             </ul>
           </div>
@@ -318,7 +318,7 @@
                     data-aos="zoom-in-left"
                   >
                     <img
-                      src="<?= base_url('assets/frontend/img/logo-footer.svg')?>"
+                      src="/assets/frontend/img/logo-footer.svg"
                       alt="Aradan Template by AppSeed"
                     />
                   </a>
@@ -332,7 +332,7 @@
                     data-aos-anchor-placement="center-bottom"
                   >
                     <a href="#" title="Facebook"
-                      ><img src="<?= base_url('assets/frontend/img/ic-facebook.svg')?>" alt="Facebook"
+                      ><img src="/assets/frontend/img/ic-facebook.svg" alt="Facebook"
                     /></a>
                   </li>
                   <li
@@ -341,7 +341,7 @@
                     data-aos-delay="100"
                   >
                     <a href="#" title="Instagram"
-                      ><img src="<?= base_url('assets/frontend/img/ic-instagram.svg')?>" alt="Instagram"
+                      ><img src="/assets/frontend/img/ic-instagram.svg" alt="Instagram"
                     /></a>
                   </li>
                   <li
@@ -350,7 +350,7 @@
                     data-aos-delay="200"
                   >
                     <a href="#" title="Twitter"
-                      ><img src="<?= base_url('assets/frontend/img/ic-twitter.svg')?>" alt="Twitter"
+                      ><img src="/assets/frontend/img/ic-twitter.svg" alt="Twitter"
                     /></a>
                   </li>
                   <li
@@ -359,7 +359,7 @@
                     data-aos-delay="300"
                   >
                     <a href="#" title="LinkedIn"
-                      ><img src="<?= base_url('assets/frontend/img/ic-linkedin.svg')?>" alt="LinkedIn"
+                      ><img src="/assets/frontend/img/ic-linkedin.svg" alt="LinkedIn"
                     /></a>
                   </li>
                 </ul>
@@ -467,6 +467,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Theme JS -->
-    <script src="<?= base_url('assets/frontend/js/app.js')?>"></script>
+    <script src="/assets/frontend/js/app.js"></script>
   </body>
 </html>

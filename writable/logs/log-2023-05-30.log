@@ -1,0 +1,368 @@
+CRITICAL - 2023-05-30 00:00:18 --> Class "App\Controllers\ModelsBlog" not found
+in APPPATH\Controllers\ProductController.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-05-30 00:02:25 --> Call to undefined method App\Models\Product::edit_data
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\ProductController.php(117): CodeIgniter\Model->__call('edit_data', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-30 00:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 00:13:24 --> Call to undefined method App\Models\Product::SelectProduct
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\ProductController.php(124): CodeIgniter\Model->__call('SelectProduct', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->delete('24')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-30 00:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 00:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 01:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 02:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 02:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 02:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 02:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 02:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 02:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 02:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-30 03:16:28 --> mysqli_sql_exception: Table 'products' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-30-031305_CreateProductDetailsTable.php(65): CodeIgniter\Database\Forge->createTable('products')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateProductDetailsTable->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-05-30 03:25:18 --> mysqli_sql_exception: Unknown table 'aradan_codeigniter.products' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `pro...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `pro...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `pro...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `pro...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-121237_CreateProductsTable.php(66): CodeIgniter\Database\Forge->dropTable('products')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateProductsTable->down()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-05-30 03:25:18 --> mysqli_sql_exception: Table 'users' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-125416_CreateUsersTable.php(58): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateUsersTable->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-05-30 03:26:07 --> mysqli_sql_exception: Unknown table 'aradan_codeigniter.products' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `pro...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `pro...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `pro...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `pro...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-121237_CreateProductsTable.php(66): CodeIgniter\Database\Forge->dropTable('products')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateProductsTable->down()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-05-30 03:26:07 --> mysqli_sql_exception: Table 'users' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-125416_CreateUsersTable.php(58): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateUsersTable->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-05-30 03:26:34 --> mysqli_sql_exception: Unknown table 'aradan_codeigniter.products' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `pro...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `pro...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `pro...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `pro...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-121237_CreateProductsTable.php(66): CodeIgniter\Database\Forge->dropTable('products')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateProductsTable->down()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-05-30 03:26:34 --> mysqli_sql_exception: Table 'users' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-125416_CreateUsersTable.php(58): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateUsersTable->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-05-30 03:26:47 --> mysqli_sql_exception: Unknown table 'aradan_codeigniter.products' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `pro...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `pro...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `pro...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `pro...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-121237_CreateProductsTable.php(66): CodeIgniter\Database\Forge->dropTable('products')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateProductsTable->down()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-05-30 03:26:47 --> mysqli_sql_exception: Table 'users' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-125416_CreateUsersTable.php(58): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateUsersTable->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-05-30 03:32:05 --> mysqli_sql_exception: Unknown table 'aradan_codeigniter.products' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `pro...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `pro...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `pro...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `pro...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-121237_CreateProductsTable.php(66): CodeIgniter\Database\Forge->dropTable('products')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateProductsTable->down()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-05-30 03:32:05 --> mysqli_sql_exception: Table 'users' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-125416_CreateUsersTable.php(58): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateUsersTable->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-05-30 03:32:16 --> mysqli_sql_exception: Unknown table 'aradan_codeigniter.products' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `pro...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `pro...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `pro...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `pro...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-05-20-121237_CreateProductsTable.php(66): CodeIgniter\Database\Forge->dropTable('products')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateProductsTable->down()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+INFO - 2023-05-30 06:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 06:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-30 06:21:38 --> mysqli_sql_exception: Unknown column 'size' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Models\Product.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(68): App\Models\Product->storeProduct(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#7 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-05-30 06:21:38 --> Unknown column 'size' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`) VALUES (\'product1\', \'black-transparent_1.png\', \'42\', NULL, \'black\', \'on-sale\', \'-\', \'product-black\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`) VALUES (\'product1\', \'black-transparent_1.png\', \'42\', NULL, \'black\', \'on-sale\', \'-\', \'product-black\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`) VALUES (\'product1\', \'black-transparent_1.png\', \'42\', NULL, \'black\', \'on-sale\', \'-\', \'product-black\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:)', [...], false)
+ 5 APPPATH\Models\Product.php(18): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ProductController.php(68): App\Models\Product->storeProduct([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-30 06:23:07 --> mysqli_sql_exception: Unknown column 'size' in 'field list' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Models\Product.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(68): App\Models\Product->storeProduct(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#7 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-05-30 06:23:07 --> Unknown column 'size' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`) VALUES (\'product1\', \'black-transparent_2.png\', \'42\', NULL, \'black\', \'on-sale\', \'-\', \'product-black\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`) VALUES (\'product1\', \'black-transparent_2.png\', \'42\', NULL, \'black\', \'on-sale\', \'-\', \'product-black\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`) VALUES (\'product1\', \'black-transparent_2.png\', \'42\', NULL, \'black\', \'on-sale\', \'-\', \'product-black\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `size`, `color`, `status`, `description`, `slug`) VALUES (:name:, :image:, :price:, :size:, :color:, :status:, :description:, :slug:)', [...], false)
+ 5 APPPATH\Models\Product.php(18): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ProductController.php(68): App\Models\Product->storeProduct([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-05-30 06:24:34 --> mysqli_sql_exception: Column 'stock' cannot be null in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Models\Product.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\ProductController.php(66): App\Models\Product->storeProduct(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\ProductController->store()
+#7 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-05-30 06:24:34 --> Column 'stock' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `products` (`name`, `image`, `price`, `stock`, `discount`, `status`, `slug`) VALUES (\'product1\', \'black-transparent_3.png\', \'42\', NULL, NULL, \'on-sale\', \'product-black\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `image`, `price`, `stock`, `discount`, `status`, `slug`) VALUES (\'product1\', \'black-transparent_3.png\', \'42\', NULL, NULL, \'on-sale\', \'product-black\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `image`, `price`, `stock`, `discount`, `status`, `slug`) VALUES (\'product1\', \'black-transparent_3.png\', \'42\', NULL, NULL, \'on-sale\', \'product-black\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `image`, `price`, `stock`, `discount`, `status`, `slug`) VALUES (:name:, :image:, :price:, :stock:, :discount:, :status:, :slug:)', [...], false)
+ 5 APPPATH\Models\Product.php(18): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\ProductController.php(66): App\Models\Product->storeProduct([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-30 06:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 06:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 06:25:06 --> Undefined array key "size"
+in APPPATH\Views\product\index.php on line 83.
+ 1 APPPATH\Views\product\index.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "size"', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\product\\index.php', 83)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\product\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product/index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(19): view('product/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+INFO - 2023-05-30 06:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 06:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 06:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 06:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 06:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 06:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 06:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 07:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 07:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 07:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 07:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 08:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
