@@ -6,11 +6,11 @@
 
 <div class="">
 <ol>
-<a href="#screenshoot">💠 Screenshoot 💻</a>
+<a href="#screenshoot">💠 Screenshoots 💻</a>
 </ol>
 
 <ol>
-<a href="#database">💠 Database Design 📚</a>
+<a href="#database">💠 Database Designs 📚</a>
 </ol>
 
 <ol>
@@ -21,7 +21,7 @@
 <hr>
 
 <div class="" id="screenshoot">
-## 💠 Screnshoot
+## 💠 Screnshoots
 
 ![banner-codeigniter](https://github.com/aslan-asilon31/aradan_codeigniter/assets/116990574/002d60c9-ef15-4e77-8f0d-76498fee88f4)
 
@@ -33,7 +33,7 @@
 
 
 <div class="" id="database">
-## 💠 Database
+## 💠 Database designs
 
 ![aradan_codeigniter_db_revisi1](https://github.com/aslan-asilon31/aradan_codeigniter/assets/116990574/8f773282-1e8a-4bab-a344-b0413b18e4e8)
 
