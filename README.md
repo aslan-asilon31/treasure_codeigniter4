@@ -35,6 +35,8 @@
 <div class="" id="database">
 ## 💠 Database
 
+![aradan_codeigniter_db_revisi1](https://github.com/aslan-asilon31/aradan_codeigniter/assets/116990574/8f773282-1e8a-4bab-a344-b0413b18e4e8)
+
 
 </div>
 
