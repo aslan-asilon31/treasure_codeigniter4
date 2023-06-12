@@ -70,34 +70,34 @@
 
                   
                   <?php foreach($product as $row):?>
-                <tr>
-                    <td><?=$row['id'];?></td>
-                    <td><?=$row['name'];?></td>
-                    <td><?php
-                        if (!empty($row["image"])) {
-                            echo '<img src="'.base_url("assets/product-images/$row[image]").'" width="100">';
-                        }
-                    ?></td>
-                    <td><?=$row['price'];?></td>
-                    <td><?=$row['stock'];?></td>
-                    <td><?=$row['discount'];?></td>
-                    <td><?=$row['status'];?></td>
-                    <td><?=$row['slug'];?></td>
-                    <td>
-                    <?=
-                    $dateString = $row['created_at'];
-                    $timestamp = strtotime($dateString);
-                    $formattedDate = date('d F Y', $timestamp);
-                    ?>
-                    </td>
-                    <td>
-                      <a href="product/view/<?=$row['id'];?>" class="btn btn-success"><i class="fa fa-eye"></i> </a> | 
-                      <a href="product/form_edit/<?=$row['id'];?>" class="btn btn-primary"><i class="fa fa-edit"></i></a> | 
-                      <a href="product/delete/<?=$row['id'];?>" class="btn btn-danger"><i class="fa fa-trash"></i></a> 
-                    </td>
+                  <tr>
+                      <td><?=$row['id'];?></td>
+                      <td><?=$row['name'];?></td>
+                      <td><?php
+                          if (!empty($row["image"])) {
+                              echo '<img src="'.base_url("assets/product-images/$row[image]").'" width="100">';
+                          }
+                      ?></td>
+                      <td><?=$row['price'];?></td>
+                      <td><?=$row['stock'];?></td>
+                      <td><?=$row['discount'];?></td>
+                      <td><?=$row['status'];?></td>
+                      <td><?=$row['slug'];?></td>
+                      <td>
+                      <?=
+                      $dateString = $row['created_at'];
+                      $timestamp = strtotime($dateString);
+                      $formattedDate = date('d F Y', $timestamp);
+                      ?>
+                      </td>
+                      <td>
+                        <a href="product/view/<?=$row['id'];?>" class="btn btn-success"><i class="fa fa-eye"></i> </a> | 
+                        <a href="product/form_edit/<?=$row['id'];?>" class="btn btn-primary"><i class="fa fa-edit"></i></a> | 
+                        <a href="product/delete/<?=$row['id'];?>" class="btn btn-danger"><i class="fa fa-trash"></i></a> 
+                      </td>
 
-                </tr>
-                <?php endforeach;?>
+                  </tr>
+                  <?php endforeach;?>
                     
                   </tbody>
                 </table>
