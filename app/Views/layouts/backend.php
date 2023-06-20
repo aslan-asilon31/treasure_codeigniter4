@@ -30,11 +30,6 @@
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
 
-  <!-- Preloader -->
-  <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__wobble" src="/assets/backend/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
-  </div>
-
     <!-- Navbar -->
     <nav class="main-header navbar navbar-expand navbar-white navbar-light">
     <!-- Left navbar links -->
@@ -221,7 +216,16 @@
           </li>
 
           <li class="nav-item">
-            <a href="category" class="nav-link">
+            <a href="users" class="nav-link">
+              <i class="nav-icon far fa-image"></i>
+              <p>
+                User
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="categories" class="nav-link">
               <i class="nav-icon far fa-image"></i>
               <p>
                 Category
@@ -230,7 +234,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="product" class="nav-link">
+            <a href="products" class="nav-link">
               <i class="nav-icon far fa-image"></i>
               <p>
                 Product
@@ -239,7 +243,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="productdetail" class="nav-link">
+            <a href="productdetails" class="nav-link">
               <i class="nav-icon far fa-image"></i>
               <p>
                 Product Detail
@@ -257,7 +261,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="" class="nav-link">
+            <a href="<?= site_url('logout') ?>" class="nav-link">
               <i class="nav-icon far fa-image"></i>
               <p>
                 Logout
@@ -321,9 +325,27 @@
 <script src="assets/backend/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
 <script src="assets/backend/dist/js/adminlte.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="assets/backend/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="assets/backend/dist/js/pages/dashboard.js"></script>
+
+  <!-- Datatables -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+
+<!-- Datatables User  -->
+<script>
+    $(document).ready( function () {
+      $('#users-list').DataTable();
+  } );
+</script>
+
+<!-- Datatables Product  -->
+<script>
+    $(document).ready( function () {
+      $('#products-list').DataTable();
+  } );
+</script>
+  <!-- End Datatables -->
 </body>
 </html>

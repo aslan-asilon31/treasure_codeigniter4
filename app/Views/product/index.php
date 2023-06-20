@@ -40,7 +40,7 @@
                 }
               ?>
                 <h3 class="card-title">
-                  <a href="product/create" class="btn btn-primary"><i class="fa fa-plus"></i></a>
+                  <a href="products/create" class="btn btn-primary"><i class="fa fa-plus"></i></a>
                   <a href="" class="btn btn-warning"><i class="fa fa-file-excel"></i></a>
                   <a href="" class="btn btn-danger"><i class="fa fa-file-pdf"></i></a>
                   <a href="" class="btn btn-info"><i class="fa fa-file-csv"></i></a>
@@ -50,7 +50,7 @@
               </div>
               <!-- /.card-header -->
               <div class="card-body">
-                <table class="table table-bordered" style="overflow-x: scroll;">
+                <table class="table table-bordered" id="products-list" style="overflow-x: scroll;">
                   <thead>
                     <tr>
                       <th style="width: 10px">#</th>
@@ -66,7 +66,7 @@
                       <th>Action</th>
                     </tr>
                   </thead>
-                  <tbody>
+                  <tbody style="color:black;">
 
                   
                   <?php foreach($product as $row):?>
@@ -91,9 +91,9 @@
                       ?>
                       </td>
                       <td>
-                        <a href="product/view/<?=$row['id'];?>" class="btn btn-success"><i class="fa fa-eye"></i> </a> | 
-                        <a href="product/form_edit/<?=$row['id'];?>" class="btn btn-primary"><i class="fa fa-edit"></i></a> | 
-                        <a href="product/delete/<?=$row['id'];?>" class="btn btn-danger"><i class="fa fa-trash"></i></a> 
+                        <a href="products/view/<?=$row['id'];?>" class="btn btn-success"><i class="fa fa-eye"></i> </a> | 
+                        <a href="products/form_edit/<?=$row['id'];?>" class="btn btn-primary"><i class="fa fa-edit"></i></a> | 
+                        <a href="products/delete/<?=$row['id'];?>" class="btn btn-danger"><i class="fa fa-trash"></i></a> 
                       </td>
 
                   </tr>

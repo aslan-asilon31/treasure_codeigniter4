@@ -56,7 +56,7 @@
   </head>
 
   <body>
-    <div class="wrapper d-flex flex-column">
+    <div class="wrapper d-flex flex-column" >
       <!-- Start Header -->
       <header class="header position-sticky">
         <!-- Start Header Top Part -->
@@ -460,7 +460,17 @@
       </div>
     </div>
 
+    <!-- DARK MODE -->
+    <script>
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+    </script>
+
     <!-- CODE HERE -->
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/perfect-scrollbar@1.5.5/dist/perfect-scrollbar.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

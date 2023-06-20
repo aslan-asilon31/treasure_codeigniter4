@@ -71,13 +71,13 @@ class ProductController extends BaseController
         $model = new Product();
         helper('form');
         $data['product'] = $model->SelectProduct($id)->getRow();
-        return view('Product/form_edit',$data);
+        return view('product/form_edit',$data);
     }
 
     public function edit(){
         $model = new Product();
         if ($this->request->getMethod() !== 'post') {
-            return redirect()->to('product');
+            return redirect()->to('products');
         }
         $id = $this->request->getPost('id');
         $validation = $this->validate([
@@ -88,10 +88,7 @@ class ProductController extends BaseController
         $data = array(
             'name'  => $this->request->getPost('name'),
             'price'  => $this->request->getPost('price'),
-            'size' => $this->request->getPost('size'),
-            'color' => $this->request->getPost('color'),
             'status' => $this->request->getPost('status'),
-            'description' => $this->request->getPost('description'),
             'slug' => $this->request->getPost('slug'),
         );
         } else {
@@ -105,15 +102,12 @@ class ProductController extends BaseController
             'name'  => $this->request->getPost('name'),
             'image' => $upload->getName(),
             'price'  => $this->request->getPost('price'),
-            'size' => $this->request->getPost('size'),
-            'color' => $this->request->getPost('color'),
             'status' => $this->request->getPost('status'),
-            'description' => $this->request->getPost('description'),
             'slug' => $this->request->getPost('slug'),
         );
         }
         $model->edit_data($id,$data);
-        return redirect()->to('./product')->with('berhasil', 'Data Berhasil di Ubah');
+        return redirect()->to('./products')->with('berhasil', 'Data Berhasil di Ubah');
         
     }
 

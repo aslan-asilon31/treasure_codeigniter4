@@ -15,7 +15,7 @@
         </div>
     </div>
     <hr>
-    <?=form_open_multipart(base_url('product/edit'));?>
+    <?=form_open_multipart(base_url('products/edit'));?>
     <div class="row">
     	<div class="col-lg-12">
     		<div class="row">
@@ -44,30 +44,9 @@
                 	</div>	
     			</div>
     			<div class="col-md-12">
-    				<label>size</label>
-    				<div class="form-group">
-                   		 <input type="text" name="size" class="form-control" value="<?=$product->size?>"> 
-                	</div>	
-    			</div>
-    			<div class="col-md-12">
-    				<label>color</label>
-    				<div class="form-group">
-                   		 <input type="text" name="color" class="form-control" value="<?=$product->color?>"> 
-                	</div>	
-    			</div>
-    			<div class="col-md-12">
     				<label>status</label>
     				<div class="form-group">
                    		 <input type="text" name="status" class="form-control" value="<?=$product->status?>"> 
-                	</div>	
-    			</div>
-    			<div class="col-md-12">
-    				<label>description</label>
-    				<div class="form-group">
-                   		 <textarea name="description" id="editor1"><?=$product->description?></textarea>
-                            <script>
-                                CKEDITOR.replace( 'editor1' );
-                            </script>
                 	</div>	
     			</div>
                 <div class="col-md-12">

@@ -13,6 +13,6 @@ class DashboardController extends BaseController
         $userModel = new Product();
         $data['products'] = $productModel->countAll();
         $data['users'] = $userModel->countAll();
-        return view('Dashboard/index', $data);
+        return view('dashboard/UserDashboard', $data);
     }
 }

@@ -30,7 +30,28 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->get('/dashboard', 'DashboardController::index');
+
+$routes->match(['get', 'post'], 'login', 'UserController::login', ["filter" => "noauth"]);
+// Admin routes
+$routes->group("admin", ["filter" => "auth"], function ($routes) {
+    $routes->get("/", "AdminController::index");
+});
+// User routes
+$routes->group("user", ["filter" => "auth"], function ($routes) {
+    $routes->get("/", "UserController::index");
+});
+// Editor routes
+$routes->group("editor", ["filter" => "auth"], function ($routes) {
+    $routes->get("/", "EditorController::index");
+});
+$routes->get('logout', 'UserController::logout');
+
+
+// Dashboard
+$routes->match(['get', 'post'], 'login', 'UserController::login', ["filter" => "noauth"]);
+
+
+// $routes->get('/dashboard', 'DashboardController::index');
 
 
 // $routes->get('/product', 'ProductController::index', ['as' => 'product']);
@@ -46,42 +67,52 @@ $routes->post('blog/simpan', 'Blog::simpan');
 $routes->post('blog/update/(:num)', 'Blog::update/$1');
 $routes->get('blog/delete/(:num)', 'Blog::delete/$1');
 
+// Users
+$routes->get('users/', 'UserController::index', ['as' => 'user-index']);
+// $routes->get('product/create', 'ProductController::form');
+// $routes->post('product/store', 'ProductController::store');
+// $routes->get('product/form_edit/(:num)', 'ProductController::form_edit/$1');
+// $routes->post('product/edit', 'ProductController::edit');
+// $routes->post('product/update/(:num)', 'ProductController::update/$1');
+// $routes->get('product/delete/(:num)', 'ProductController::delete/$1');
+// End Products
+
 // Products
-$routes->get('product/', 'ProductController::index', ['as' => 'product-index']);
-$routes->get('product/create', 'ProductController::form');
-$routes->post('product/store', 'ProductController::store');
-$routes->get('product/form_edit/(:num)', 'ProductController::form_edit/$1');
-$routes->post('product/edit', 'ProductController::edit');
-$routes->post('product/update/(:num)', 'ProductController::update/$1');
-$routes->get('product/delete/(:num)', 'ProductController::delete/$1');
+$routes->get('products/', 'ProductController::index', ['as' => 'product-index']);
+$routes->get('products/create', 'ProductController::form');
+$routes->post('products/store', 'ProductController::store');
+$routes->get('products/form_edit/(:num)', 'ProductController::form_edit/$1');
+$routes->post('products/edit', 'ProductController::edit');
+$routes->post('products/update/(:num)', 'ProductController::update/$1');
+$routes->get('products/delete/(:num)', 'ProductController::delete/$1');
 // End Products
 
 // Product details
-$routes->get('productdetail/', 'ProductDetailController::index', ['as' => 'productdetail-index']);
-$routes->get('productdetail/create', 'ProductDetailController::form');
-$routes->post('productdetail/store', 'ProductDetailController::store');
-$routes->get('productdetail/form_edit/(:num)', 'ProductDetailController::form_edit/$1');
-$routes->post('productdetail/edit', 'ProductDetailController::edit');
-$routes->post('productdetail/update/(:num)', 'ProductDetailController::update/$1');
-$routes->get('productdetail/delete/(:num)', 'ProductDetailController::delete/$1');
+$routes->get('productdetails/', 'ProductDetailController::index', ['as' => 'productdetail-index']);
+$routes->get('productdetails/create', 'ProductDetailController::form');
+$routes->post('productdetails/store', 'ProductDetailController::store');
+$routes->get('productdetails/form_edit/(:num)', 'ProductDetailController::form_edit/$1');
+$routes->post('productdetails/edit', 'ProductDetailController::edit');
+$routes->post('productdetails/update/(:num)', 'ProductDetailController::update/$1');
+$routes->get('productdetails/delete/(:num)', 'ProductDetailController::delete/$1');
 // End Product details
 
 // Productimages
-$routes->get('productimage/', 'ProductImagesController::index', ['as' => 'productimages-index']);
-$routes->get('productimage/create', 'ProductImagesController::create');
-$routes->post('productimage/store', 'ProductImagesController::store');
-$routes->get('productimage/edit/(:num)', 'ProductImagesController::edit/$1');
-$routes->post('productimage/update/(:num)', 'ProductImagesController::update/$1');
-$routes->get('productimage/delete/(:num)', 'ProductImagesController::delete/$1');
+$routes->get('productimages/', 'ProductImagesController::index', ['as' => 'productimages-index']);
+$routes->get('productimages/create', 'ProductImagesController::create');
+$routes->post('productimages/store', 'ProductImagesController::store');
+$routes->get('productimages/edit/(:num)', 'ProductImagesController::edit/$1');
+$routes->post('productimages/update/(:num)', 'ProductImagesController::update/$1');
+$routes->get('productimages/delete/(:num)', 'ProductImagesController::delete/$1');
 // End Productimages
 
 // Productimages
-$routes->get('category/', 'CategoryController::index', ['as' => 'categories-index']);
-$routes->get('category/create', 'CategoryController::create');
-$routes->post('category/store', 'CategoryController::store');
-$routes->get('category/edit/(:num)', 'CategoryController::edit/$1');
-$routes->post('category/update/(:num)', 'CategoryController::update/$1');
-$routes->get('category/delete/(:num)', 'CategoryController::delete/$1');
+$routes->get('categories/', 'CategoryController::index', ['as' => 'categories-index']);
+$routes->get('categories/create', 'CategoryController::create');
+$routes->post('categories/store', 'CategoryController::store');
+$routes->get('categories/edit/(:num)', 'CategoryController::edit/$1');
+$routes->post('categories/update/(:num)', 'CategoryController::update/$1');
+$routes->get('categories/delete/(:num)', 'CategoryController::delete/$1');
 // End Productimages
 
 

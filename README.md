@@ -45,9 +45,6 @@
 <div class="" id="analysis">
 ## 💠 System analysis and design
 
-
-
-
 </div>
 
 
