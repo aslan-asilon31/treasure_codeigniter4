@@ -77,7 +77,10 @@ class UserController extends BaseController
     // Show users list
     public function index(){
         $user = new User();
-        $data['users'] = $user->orderBy('id', 'DESC')->findAll();
+        $data['users'] = $user->select('role')
+                           ->where('name', session()->get('name'))
+                           ->first();
+
         return view('user/dashboard', $data);
     } 
 }

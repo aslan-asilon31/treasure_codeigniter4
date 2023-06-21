@@ -26,6 +26,6 @@ class ProductDetailController extends BaseController
         $productModel = new Product();
         $data['title'] = 'Product Image';
         $data['products'] = $productModel->findAll();
-        return view('product-image/create',$data);
+        return view('product-detail/create',$data);
     }
 }

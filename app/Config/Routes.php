@@ -26,10 +26,9 @@ $routes->set404Override();
  * Route Definitions
  * --------------------------------------------------------------------
  */
-
-// We get a performance increase by specifying the default
-// route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+//Visitor
+$routes->get('/', 'VisitorController::index', ['as' => 'visitor']);
+$routes->get('/visitor-product-detail', 'VisitorController::product_detail', ['as' => 'visitor-product-detail']);
 
 $routes->match(['get', 'post'], 'login', 'UserController::login', ["filter" => "noauth"]);
 // Admin routes

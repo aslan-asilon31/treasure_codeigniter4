@@ -1,4 +1,4 @@
-<?= $this->extend('layouts/backend') ?>
+<?= $this->extend('layouts/backend_admin') ?>
 
 <?= $this->section('content') ?>
 
@@ -39,14 +39,26 @@
                 <?php
                 }
               ?>
-                <h3 class="card-title">
+
+              <?php if (session()->get('status') === 0): ?>
+                <h3 class="card-title" >
                   <a href="products/create" class="btn btn-primary"><i class="fa fa-plus"></i></a>
                   <a href="" class="btn btn-warning"><i class="fa fa-file-excel"></i></a>
                   <a href="" class="btn btn-danger"><i class="fa fa-file-pdf"></i></a>
                   <a href="" class="btn btn-info"><i class="fa fa-file-csv"></i></a>
                   <a href="" class="btn btn-secondary"><i class="fa fa-upload"></i></a>
-
                 </h3>
+                <?php elseif (session()->get('status') === 0): ?>
+                <h3 class="card-title" >
+                <a href="products/create" class="btn btn-primary"><i class="fa fa-plus"></i></a>
+                  <a href="" class="btn btn-warning"><i class="fa fa-file-excel"></i></a>
+                  <a href="" class="btn btn-danger"><i class="fa fa-file-pdf"></i></a>
+                  <a href="" class="btn btn-info"><i class="fa fa-file-csv"></i></a>
+                  <a href="" class="btn btn-secondary"><i class="fa fa-upload"></i></a>
+                </h3>
+              <?php endif; ?>
+
+
               </div>
               <!-- /.card-header -->
               <div class="card-body">
@@ -59,8 +71,10 @@
                       <th>Image</th>
                       <th>Price</th>
                       <th>Stock</th>
+                      <th>Sold</th>
                       <th>Discount</th>
                       <th>Status</th>
+                      <th>Rating</th>
                       <th>Slug</th>
                       <th>Created  At</th>
                       <th>Action</th>
@@ -69,7 +83,7 @@
                   <tbody style="color:black;">
 
                   
-                  <?php foreach($product as $row):?>
+                  <?php foreach($products as $row):?>
                   <tr>
                       <td><?=$row['id'];?></td>
                       <td><?=$row['name'];?></td>
@@ -80,8 +94,10 @@
                       ?></td>
                       <td><?=$row['price'];?></td>
                       <td><?=$row['stock'];?></td>
-                      <td><?=$row['discount'];?></td>
+                      <td><?=$row['sold'];?></td>
+                      <td><?=$row['discount'];?> %</td>
                       <td><?=$row['status'];?></td>
+                      <td><?=$row['rating']; ?></td>
                       <td><?=$row['slug'];?></td>
                       <td>
                       <?=

@@ -4,21 +4,41 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\Product;
+use App\Models\ProductDetail;
 
 class ProductController extends BaseController
 {
 
 
+    // public function index()
+    // {
+    //     $model = new Product();
+    //     if (!$this->validate([]))
+    //     {
+    //         $data['validation'] = $this->validator;
+    //         $data['product'] = $model->getProduct();
+    //         return view('product/index',$data);
+    //     }
+    // }
+
     public function index()
     {
         $model = new Product();
+        
         if (!$this->validate([]))
         {
             $data['validation'] = $this->validator;
-            $data['product'] = $model->getProduct();
-            return view('product/index',$data);
+            
+        // Retrieve products with their corresponding product_details
+        $data['products'] = $model->select('products.*, product_details.rating ,product_details.sold')
+            ->join('product_details', 'products.id = product_details.product_id')
+            ->findAll();
+
+            return view('product/index', $data);
         }
     }
+
+
 
     public function form(){
         helper('form');

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dashboard</title>
+  <title>Dashboard Admin</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -184,7 +184,7 @@
           <img src="assets/backend/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Aslan</a>
+          <a href="#" class="d-block"><?= session()->get('name') ?></a>
         </div>
       </div>
 
@@ -206,68 +206,21 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
 
-          <li class="nav-item">
-            <a href="dashboard" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
-              <p>
-                Dashboard
-              </p>
-            </a>
-          </li>
+          <?php foreach($users as $row):?>
 
-          <li class="nav-item">
-            <a href="users" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
-              <p>
-                User
-              </p>
-            </a>
-          </li>
+          <?php if ($row == "admin"): ?>
 
-          <li class="nav-item">
-            <a href="categories" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
-              <p>
-                Category
-              </p>
-            </a>
-          </li>
+            <?php include('backend_partials/_sidebar_admin.php') ?>
+            
+            <?php elseif ($row == "user"): ?>
+              
+              <?php include('backend_partials/_sidebar_user.php') ?>
 
-          <li class="nav-item">
-            <a href="products" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
-              <p>
-                Product
-              </p>
-            </a>
-          </li>
+          <?php endif; ?>
 
-          <li class="nav-item">
-            <a href="productdetails" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
-              <p>
-                Product Detail
-              </p>
-            </a>
-          </li>
+          <?php endforeach;?>
 
-          <li class="nav-item">
-            <a href="" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
-              <p>
-                Product Image
-              </p>
-            </a>
-          </li>
 
-          <li class="nav-item">
-            <a href="<?= site_url('logout') ?>" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
-              <p>
-                Logout
-              </p>
-            </a>
-          </li>
          
         </ul>
       </nav>

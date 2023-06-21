@@ -24,8 +24,8 @@
 :root {
   --bs-blue: #fbb03b;
   --bs-darkBlue: #fbb03b;
-  --bs-indigo: #2D5F84;
-  --bs-purple: #6f42c1;
+  --bs-indigo: #fbb03b;
+  --bs-purple: #f39c10;
   --bs-pink: #D081A4;
   --bs-red: #FF0000;
   --bs-orange: #FF7A00;
@@ -43,13 +43,13 @@
   --bs-gray-400: #9C9C9C;
   --bs-gray-500: #747474;
   --bs-gray-600: #717171;
-  --bs-gray-700: #495057;
+  --bs-gray-700: #fbb03b;
   --bs-gray-800: #fbb03b;
   --bs-gray-900: #fbb03b;
   --bs-primary: #fbb03b;
   --bs-secondary: #E0C340;
   --bs-success: #82d616;
-  --bs-info: #17c1e8;
+  --bs-info: #fbb03b;
   --bs-warning: #fbcf33;
   --bs-danger: #ea0606;
   --bs-light: #ffffff;
@@ -12428,7 +12428,7 @@ h6,
   position: absolute;
   left: -20px;
   top: 0;
-  background: linear-gradient(180deg, #3EA3EA 0%, #096DBC 100%);
+  background: linear-gradient(180deg, #fbb03b 0%, #fbb03b 100%);
   transform: rotate(-30deg);
   width: 28px;
   height: 28px;
@@ -12485,7 +12485,7 @@ h6,
   padding: 20px 0;
   font-family: "Poppins", sans-serif;
   color: #fff;
-  background: linear-gradient(91.02deg, #4281D0 0%, #072448 100%);
+  background: linear-gradient(91.02deg, #fbb03b 0%, #fbb03b 100%);
 }
 .filter-block .filter-menu {
   display: flex;

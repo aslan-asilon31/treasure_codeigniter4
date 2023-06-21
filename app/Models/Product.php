@@ -7,6 +7,8 @@ use CodeIgniter\Model;
 class Product extends Model
 {
     protected $table = 'products';
+    protected $primaryKey = 'id';
+    protected $allowedFields = ['name', 'image', 'price', 'stock', 'discount', 'status', 'slug'];
 
     public function getProduct()
     {
@@ -36,5 +38,10 @@ class Product extends Model
         return $query;
     }
 
+
+    public function productDetails()
+    {
+        return $this->hasMany('App\Models\ProductDetail', 'product_id', 'id');
+    }
 
 }
