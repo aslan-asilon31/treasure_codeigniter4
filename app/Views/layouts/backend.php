@@ -26,6 +26,11 @@
   <link rel="stylesheet" href="assets/backend/plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="assets/backend/plugins/summernote/summernote-bs4.min.css">
+
+  <!-- Theme style -->
+  <link rel="stylesheet" href="assets/backend/dist/css/adminlte.min.css">
+
+
 </head>
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
@@ -300,5 +305,9 @@
   } );
 </script>
   <!-- End Datatables -->
+
+
+  <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="assets/backend/dist/js/pages/dashboard2.js"></script>
 </body>
 </html>

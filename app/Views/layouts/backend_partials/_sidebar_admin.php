@@ -1,7 +1,7 @@
     
           <li class="nav-item">
             <a href="admin" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
+              <i class="nav-icon fa fa-tachometer-alt"></i>
               <p>
                 Dashboard
               </p>
