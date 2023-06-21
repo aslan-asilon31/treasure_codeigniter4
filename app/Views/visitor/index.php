@@ -97,14 +97,12 @@
                   <p class="new-product-text">Basketball Shoes</p>
 
                     <div class="row" >
-                      <form action="" method="POST" enctype="multipart/form-data">
-                        <input type="hidden" value="{{ $product->id }}" name="id">
-                        <input type="hidden" value="{{ $product->name }}" name="name">
-                        <input type="hidden" value="{{ $pmp->price }}" name="price">
-                        <input type="hidden" value="{{ $pmp->discount }}" name="discount">
-                        <input type="hidden" value="{{ $pmp->total_price }}" name="total_price">
-                        <input type="hidden" value="{{ $product->image }}"  name="image">
-                        <input type="hidden" value="1" name="quantity">
+                      <form action="/visitor-addcart" method="POST" enctype="multipart/form-data">
+                        <input type="hidden" value="<?=$product['id'];?>" name="id">
+                        <input type="hidden" value="<?=$product['name'];?>" name="name">
+                        <input type="hidden" value="<?=$product['price'];?>" name="price">
+                        <input type="hidden" value="<?=$product['discount'];?>" name="discount">
+                        <input type="hidden" value="<?=$product['price'];?>"  name="image">
                         <button class="" style="background-color:#483285;color:white;"><i class="fa fa-shopping-cart"></i> Add</button> | 
                         <a class="btn-link mb-0" href="visitor-product-detail" title="Add to Cart"
                           > <i class="fa fa-eye"></i> Details</a> | 

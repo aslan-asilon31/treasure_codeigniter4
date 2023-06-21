@@ -604,3 +604,630 @@ INFO - 2023-06-21 05:17:17 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-06-21 05:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-21 05:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-21 05:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-21 06:09:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`deleted_at` timestamp NULL,
+	`created_at` timestamp NOT NULL,
+	`upda' at line 7 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054733_Orders.php(22): CodeIgniter\Database\Forge->createTable('orders')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Orders->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:12:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`deleted_at` timestamp NULL,
+	`created_at` timestamp NOT NULL,
+	`upda' at line 7 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054733_Orders.php(22): CodeIgniter\Database\Forge->createTable('orders')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Orders->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:14:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`deleted_at` timestamp NULL,
+	`created_at` timestamp NOT NULL,
+	`upda' at line 7 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054733_Orders.php(22): CodeIgniter\Database\Forge->createTable('orders')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Orders->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:15:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL DEFAULT 'waiting',
+	`snap_token` varchar(36) NOT NULL,
+	`slug` varchar ' at line 5 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054733_Orders.php(22): CodeIgniter\Database\Forge->createTable('orders')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Orders->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:15:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`snap_token` varchar(36) NOT NULL,
+	`slug` varchar NOT NULL,
+	`delete' at line 5 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054733_Orders.php(22): CodeIgniter\Database\Forge->createTable('orders')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Orders->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:16:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`snap_token` varchar NOT NULL,
+	`slug` varchar NOT NULL,
+	`deleted_at' at line 5 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054733_Orders.php(22): CodeIgniter\Database\Forge->createTable('orders')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Orders->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:16:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`snap_token` varchar(36) NOT NULL,
+	`slug` varchar NOT NULL,
+	`delete' at line 5 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054733_Orders.php(22): CodeIgniter\Database\Forge->createTable('orders')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Orders->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:17:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`snap_token` decimal(36) NOT NULL,
+	`slug` varchar NOT NULL,
+	`delete' at line 5 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054733_Orders.php(22): CodeIgniter\Database\Forge->createTable('orders')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Orders->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:17:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`snap_token` decimal NOT NULL,
+	`slug` varchar NOT NULL,
+	`deleted_at' at line 5 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054733_Orders.php(22): CodeIgniter\Database\Forge->createTable('orders')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Orders->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:20:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`snap_token` varchar NOT NULL,
+	`slug` varchar NOT NULL,
+	`deleted_at' at line 5 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054733_Orders.php(30): CodeIgniter\Database\Forge->createTable('orders')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Orders->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:20:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`snap_token` varchar NOT NULL,
+	`slug` varchar NOT NULL,
+	`deleted_at' at line 5 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054733_Orders.php(30): CodeIgniter\Database\Forge->createTable('orders')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Orders->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:21:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`deleted_at` timestamp NULL,
+	`created_at` timestamp NOT NULL,
+	`upda' at line 7 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054733_Orders.php(23): CodeIgniter\Database\Forge->createTable('orders')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Orders->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:22:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`deleted_at` timestamp NULL,
+	`created_at` timestamp NOT NULL,
+	`upda' at line 7 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `o...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `o...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `o...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `o...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054733_Orders.php(23): CodeIgniter\Database\Forge->createTable('orders')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Orders->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:23:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`rating` int NOT NULL,
+	`comments` text NOT NULL,
+	`slug` varchar NOT' at line 3 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054746_Reviews.php(21): CodeIgniter\Database\Forge->createTable('reviews')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Reviews->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:24:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`rating` int(20) NOT NULL,
+	`comments` text NOT NULL,
+	`slug` varchar' at line 3 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054746_Reviews.php(21): CodeIgniter\Database\Forge->createTable('reviews')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Reviews->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:25:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`rating` int(20) NOT NULL,
+	`comments` text NOT NULL,
+	`slug` varchar' at line 3 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054746_Reviews.php(21): CodeIgniter\Database\Forge->createTable('reviews')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Reviews->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:26:21 --> mysqli_sql_exception: Referencing column 'product_id' and referenced column 'id' in foreign key constraint 'product_pivots_product_id_foreign' are incompatible. in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054804_ProductPivots.php(28): CodeIgniter\Database\Forge->createTable('product_pivots')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\ProductPivots->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:29:25 --> mysqli_sql_exception: Referencing column 'product_id' and referenced column 'id' in foreign key constraint 'product_pivots_product_id_foreign' are incompatible. in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054804_ProductPivots.php(30): CodeIgniter\Database\Forge->createTable('product_pivots')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\ProductPivots->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:31:00 --> mysqli_sql_exception: Referencing column 'product_id' and referenced column 'id' in foreign key constraint 'product_pivots_product_id_foreign' are incompatible. in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054804_ProductPivots.php(30): CodeIgniter\Database\Forge->createTable('product_pivots')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\ProductPivots->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:32:26 --> mysqli_sql_exception: Referencing column 'product_id' and referenced column 'id' in foreign key constraint 'product_pivots_product_id_foreign' are incompatible. in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054804_ProductPivots.php(30): CodeIgniter\Database\Forge->createTable('product_pivots')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\ProductPivots->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:34:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`invoice_code` varchar NOT NULL,
+	`cust_name` varchar NOT NULL,
+	`cus' at line 4 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054814_Transactions.php(28): CodeIgniter\Database\Forge->createTable('transactions')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Transactions->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:36:27 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`description` varchar NOT NULL,
+	`slug` varchar NOT NULL,
+	`deleted_a' at line 4 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054922_CategoryDetails.php(22): CodeIgniter\Database\Forge->createTable('category_detail...')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\CategoryDetails->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:37:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`title` varchar NOT NULL,
+	`color` varchar NOT NULL,
+	`description` t' at line 4 in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-055013_ProductImages.php(24): CodeIgniter\Database\Forge->createTable('product_images')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\ProductImages->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:39:15 --> mysqli_sql_exception: Table 'product_images' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-055013_ProductImages.php(24): CodeIgniter\Database\Forge->createTable('product_images')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\ProductImages->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:40:21 --> mysqli_sql_exception: Table 'product_images' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-055013_ProductImages.php(24): CodeIgniter\Database\Forge->createTable('product_images')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\ProductImages->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:40:45 --> mysqli_sql_exception: Table 'product_images' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-055013_ProductImages.php(24): CodeIgniter\Database\Forge->createTable('product_images')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\ProductImages->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:41:22 --> mysqli_sql_exception: Referencing column 'product_id' and referenced column 'id' in foreign key constraint 'product_images_product_id_foreign' are incompatible. in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-055013_ProductImages.php(24): CodeIgniter\Database\Forge->createTable('product_images')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\ProductImages->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:41:52 --> mysqli_sql_exception: Table 'product_images' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-055013_ProductImages.php(24): CodeIgniter\Database\Forge->createTable('product_images')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\ProductImages->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:46:08 --> mysqli_sql_exception: Table 'product_images' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-055013_ProductImages.php(24): CodeIgniter\Database\Forge->createTable('product_images')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\ProductImages->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:47:01 --> mysqli_sql_exception: Table 'product_images' already exists in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-055013_ProductImages.php(24): CodeIgniter\Database\Forge->createTable('product_images')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\ProductImages->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:47:49 --> mysqli_sql_exception: Referencing column 'product_id' and referenced column 'id' in foreign key constraint 'multiple_prices_product_id_foreign' are incompatible. in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `m...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `m...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `m...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `m...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-055045_MultiplePrices.php(23): CodeIgniter\Database\Forge->createTable('multiple_prices')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\MultiplePrices->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:49:28 --> mysqli_sql_exception: Failed to open the referenced table 'id' in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `m...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `m...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `m...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `m...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-055045_MultiplePrices.php(23): CodeIgniter\Database\Forge->createTable('multiple_prices')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\MultiplePrices->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:49:48 --> mysqli_sql_exception: Referencing column 'product_id' and referenced column 'id' in foreign key constraint 'payments_product_id_foreign' are incompatible. in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-055126_Payments.php(29): CodeIgniter\Database\Forge->createTable('payments')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Payments->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:51:48 --> mysqli_sql_exception: Referencing column 'product_id' and referenced column 'id' in foreign key constraint 'payments_product_id_foreign' are incompatible. in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-055126_Payments.php(29): CodeIgniter\Database\Forge->createTable('payments')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\Payments->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-06-21 06:53:04 --> mysqli_sql_exception: Referencing column 'product_id' and referenced column 'id' in foreign key constraint 'product_pivots_product_id_foreign' are incompatible. in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\laragon\www\github31\aradan_codeigniter\app\Database\Migrations\2023-06-21-054804_ProductPivots.php(30): CodeIgniter\Database\Forge->createTable('product_pivots')
+#5 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(877): App\Database\Migrations\ProductPivots->up()
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\github31\aradan_codeigniter\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-06-21 08:09:01 --> Call to a member function insert() on null
+in APPPATH\Controllers\VisitorController.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VisitorController->add_cart()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitorController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-06-21 08:09:45 --> Class "App\Models\Cart" not found
+in APPPATH\Controllers\VisitorController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VisitorController->add_cart()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitorController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+ERROR - 2023-06-21 08:10:13 --> mysqli_sql_exception: Table 'aradan_codeigniter.carts' doesn't exist in C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\github31\aradan_codeigniter\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\laragon\www\github31\aradan_codeigniter\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\github31\aradan_codeigniter\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\github31\aradan_codeigniter\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\github31\aradan_codeigniter\app\Controllers\VisitorController.php(50): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(934): App\Controllers\VisitorController->add_cart()
+#9 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitorController))
+#10 C:\laragon\www\github31\aradan_codeigniter\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\github31\aradan_codeigniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\github31\aradan_codeigniter\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2023-06-21 08:10:13 --> Table 'aradan_codeigniter.carts' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `carts` (`name`, `price`) VALUES (\'Jordan One Take 4 PF - Black\', \'2000000\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `carts` (`name`, `price`) VALUES (\'Jordan One Take 4 PF - Black\', \'2000000\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `carts` (`name`, `price`) VALUES (\'Jordan One Take 4 PF - Black\', \'2000000\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `carts` (`name`, `price`) VALUES (:name:, :price:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\VisitorController.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VisitorController->add_cart()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitorController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-06-21 08:40:45 --> Call to undefined method App\Models\Carts::getProduct
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\VisitorController.php(36): CodeIgniter\Model->__call('getProduct', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VisitorController->product_cart()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitorController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-06-21 08:41:44 --> Call to undefined method App\Models\Carts::getProduct
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\VisitorController.php(36): CodeIgniter\Model->__call('getProduct', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VisitorController->product_cart()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitorController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-06-21 08:43:04 --> Call to undefined method App\Models\Carts::getProduct
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\VisitorController.php(36): CodeIgniter\Model->__call('getProduct', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VisitorController->product_cart()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitorController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-06-21 08:44:44 --> Undefined variable $products
+in APPPATH\Views\visitor\index.php on line 54.
+ 1 APPPATH\Views\visitor\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\visitor\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\aradan_codeigniter\\app\\Views\\visitor\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('visitor/index', [], true)
+ 5 APPPATH\Controllers\VisitorController.php(44): view('visitor/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VisitorController->product_cart()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitorController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\aradan_codeigniter\\public\\index.php')

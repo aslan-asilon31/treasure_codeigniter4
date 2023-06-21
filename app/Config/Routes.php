@@ -29,6 +29,8 @@ $routes->set404Override();
 //Visitor
 $routes->get('/', 'VisitorController::index', ['as' => 'visitor']);
 $routes->get('/visitor-product-detail', 'VisitorController::product_detail', ['as' => 'visitor-product-detail']);
+$routes->post('/visitor-addcart', 'VisitorController::add_cart', ['as' => 'visitor-add-cart']);
+$routes->get('/visitor-cart', 'VisitorController::product_cart', ['as' => 'visitor-cart']);
 
 $routes->match(['get', 'post'], 'login', 'UserController::login', ["filter" => "noauth"]);
 // Admin routes
