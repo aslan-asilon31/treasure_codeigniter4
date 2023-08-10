@@ -18,11 +18,11 @@ class VisitorController extends BaseController
             $data['validation'] = $this->validator;
             $data['products'] = $model->getProduct();
 
-            $data['carts'] = $model->getCarts();
+            // $data['carts'] = $model->getCarts();
             // Count the number of rows
-            $cartCount = count($data['carts']);
+            // $cartCount = count($data['carts']);
             // Pass the cart count to the view
-            $data['cartCount'] = $cartCount;
+            // $data['cartCount'] = $cartCount;
 
             return view('visitor/index',$data);
         }

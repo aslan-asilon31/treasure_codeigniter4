@@ -242,7 +242,7 @@
               </button>
 
               <li class="/visitor-cart" style="margin-left:70px; margin-bottom:25px;z-index:10px;width:250px;position:absolute;">
-                <span class="badge rounded-pill bg-danger " style=""> <?= $cartCount ?> </span>
+                <span class="badge rounded-pill bg-danger " style=""> 0 </span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
                 </button>
               </li>

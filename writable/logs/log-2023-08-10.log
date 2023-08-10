@@ -1,0 +1,45 @@
+CRITICAL - 2023-08-10 12:43:13 --> Call to undefined method App\Models\Product::getCarts
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\VisitorController.php(21): CodeIgniter\Model->__call('getCarts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VisitorController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitorController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\ECOMMERCE-BIG-PROJECT\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-08-10 12:45:51 --> Call to undefined method App\Models\Product::getCarts
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\VisitorController.php(21): CodeIgniter\Model->__call('getCarts', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VisitorController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitorController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\ECOMMERCE-BIG-PROJECT\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-08-10 12:47:20 --> Undefined array key "carts"
+in APPPATH\Controllers\VisitorController.php on line 23.
+ 1 APPPATH\Controllers\VisitorController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "carts"', 'C:\\laragon\\www\\github31\\ECOMMERCE-BIG-PROJECT\\aradan_codeigniter\\app\\Controllers\\VisitorController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VisitorController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitorController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\ECOMMERCE-BIG-PROJECT\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-08-10 12:47:30 --> Undefined variable $cartCount
+in APPPATH\Controllers\VisitorController.php on line 25.
+ 1 APPPATH\Controllers\VisitorController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cartCount', 'C:\\laragon\\www\\github31\\ECOMMERCE-BIG-PROJECT\\aradan_codeigniter\\app\\Controllers\\VisitorController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VisitorController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitorController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\ECOMMERCE-BIG-PROJECT\\aradan_codeigniter\\public\\index.php')
+CRITICAL - 2023-08-10 12:47:34 --> Undefined variable $cartCount
+in APPPATH\Views\layouts\frontend.php on line 245.
+ 1 APPPATH\Views\layouts\frontend.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cartCount', 'C:\\laragon\\www\\github31\\ECOMMERCE-BIG-PROJECT\\aradan_codeigniter\\app\\Views\\layouts\\frontend.php', 245)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\laragon\\www\\github31\\ECOMMERCE-BIG-PROJECT\\aradan_codeigniter\\app\\Views\\layouts\\frontend.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/frontend', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('visitor/index', [], true)
+ 6 APPPATH\Controllers\VisitorController.php(27): view('visitor/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\VisitorController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitorController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\github31\\ECOMMERCE-BIG-PROJECT\\aradan_codeigniter\\public\\index.php')
